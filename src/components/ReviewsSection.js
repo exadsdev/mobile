@@ -34,7 +34,7 @@ export default function ReviewsSection({ reviews = [] }) {
                             <div className="review-content">
                                 <div className="review-stars">{renderStars(review.rating)}</div>
                                 <span className="review-product">{review.product}</span>
-                                <p className="review-text">"{review.text}"</p>
+                                <p className="review-text">&quot;{review.text}&quot;</p>
                                 <div className="review-meta">
                                     📍 {review.province} | {review.date}
                                 </div>
